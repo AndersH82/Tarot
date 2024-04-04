@@ -29,6 +29,7 @@ body {
   width: 100%;
   top: 0;
   box-shadow: 0 0 4px 0 rgb(250, 250, 250);
+  z-index: 1000;
 }
 
 .header__content {
@@ -171,6 +172,7 @@ h3 {
   width: 100%;
   height: 100%;
   border-radius: 50%;
+  z-index: 1;
 }
 
 @media (max-width: 768px) {
